@@ -579,7 +579,7 @@ new data
 			</manifest>
 		</jar>
 	</target>
-
+//new data
 	<target name="run" depends="compile">
 		<java jar="build/jar/-  nit-example.jar" fork="true" />
 	</target>
