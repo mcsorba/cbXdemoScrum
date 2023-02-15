@@ -36,7 +36,7 @@
 			</manifest>
 		</jar>
 	</target>
-##modified data
+
 	<target name="run" depends="compile">
 		<java jar="build/jar/xunit-example.jar" fork="true" />
 	</target>
