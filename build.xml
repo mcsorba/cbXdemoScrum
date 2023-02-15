@@ -4,7 +4,7 @@
 		<mkdir dir="build/classes" />
 		<javac srcdir="src" destdir="build/classes" classpathref="classpath" includeantruntime="false" />
 	</target>
-
+//new
 	<target name="jar">
 		<mkdir dir="build/jar" />
 		<jar destfile="build/jar/xunit-example.jar" basedir="build/classes">
