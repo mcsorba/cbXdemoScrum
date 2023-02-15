@@ -52,7 +52,7 @@
 			</junit>
 		</jacoco:coverage>
 	</target>
-new data
+
 		<target name="report" depends="coverage">
 			<jacoco:report>
 				<executiondata>
